@@ -1,0 +1,18 @@
+{
+    // array of proto-JSON-encoded sdk.Msgs
+    "messages": [
+      {
+        "@type": "/cosmos.bank.v1beta1.MsgSend",
+        "from_address": "evmos1yzwlgyrgcg83u32fclz0sy2yhxsuzpvpxlpuxc",
+        "to_address": "evmos1yzwlgyrgcg83u32fclz0sy2yhxsuzpvpxlpuxc",
+        "amount":[{"denom": "aevmos","amount": "1000000000000000"}]
+      }
+    ],
+    // metadata can be any of base64 encoded, raw text, stringified json, IPFS link to json
+    // see below for example metadata
+    "metadata": "let's build together. that's my motto. crypto is basically a movement to revolutionize how we exchange value and empower individuals globally.",
+    "authors": ["evmos1yzwlgyrgcg83u32fclz0sy2yhxsuzpvpxlpuxc"],
+    "deposit": "1000000000000000aevmos",
+    "title": "let's build together",
+    "summary": "hello i'm baconvalley, i wanna help build this project. so, let's build together."
+}
